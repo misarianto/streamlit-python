@@ -4,8 +4,24 @@ Streamlit is an open-source Python framework for data scientists and AI/ML engin
 
 ### Clone and Install Library
 
+Buat Virtual Environment di folder project anda
+
 ```
-pip install -r requirement.txt
+python -m venv venv
+```
+
+Enable Virtual Environment
+
+```
+source venv/bin/activate  # Untuk Linux/MacOS
+
+venv\Scripts\activate     # Untuk Windows
+```
+
+Install semua Dependencies
+
+```
+pip install -r requirements.txt
 ```
 
 ### Running Project with Streamlit
